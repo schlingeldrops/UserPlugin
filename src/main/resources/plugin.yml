@@ -1,0 +1,25 @@
+name: UserPlugin
+version: 1.0.0
+author: schlingeldrops
+main: de.blockstube.userplugin.UserPlugin
+
+commands:
+  coins:
+    aliases:
+      - coin
+    description: This is a command to manipulate the coins of a user.
+    permission: user.manipulation.coins
+    usage: /coins help
+  timer:
+    aliases:
+      - countdown
+    description: This is a command to manage a countdown.
+    permission: server.countdown
+    usage: /timer help
+  user:
+    aliases:
+      - profile
+      - profil
+    description: This  is a command to open a profile gui.
+    permission: user.profile
+    usage: /user

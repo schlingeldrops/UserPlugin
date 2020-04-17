@@ -1,0 +1,7 @@
+database:
+  type: "Mongo_DB"
+  host: "localhost"
+  port: 27017
+  database: "admin"
+  username: ""
+  password: ""
